@@ -1,0 +1,275 @@
+header{
+    height: 800px;
+    background: url(../../../img/вверх.png);
+    background-size: cover;
+}
+.silka{
+    display: flex;
+    align-items: center;
+}
+.silka img{
+    width: 300px;
+    height: 100px;
+}
+.all1{
+    display: flex;
+    justify-content: space-between;
+}
+.pervoe{
+    width: 400px;
+    height: 250px;
+    background: url(../../../img/obd1.png);
+    background-size: cover;
+    margin-top: 80px;
+}
+.vtoroe{
+    width: 400px;
+    height: 250px;
+    background: url(../../../img/obd2.png);
+    background-size: cover;
+}
+.tri{
+    width: 400px;
+    height: 250px;
+    background: url(../../../img/obd1.png);
+    background-size: cover;
+    margin-top: 80px;
+}
+nav{
+    display: flex;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+    justify-content: center;
+    margin-left: 250px;
+    margin-bottom: 70px;
+}
+nav a{
+    padding: 20px 30px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-top: 50px;
+}
+.blud{
+    font-size: 40px;
+    text-align: center;
+    margin: 60px;
+}
+.press{
+    background-color: rgb(255, 191, 0);
+    font-size: 10px;
+    width: 130px;
+    margin: 0 auto;
+    margin-top: -55px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+main{
+    background-color:rgb(6, 95, 172);
+    padding: 20px;
+}
+.all{
+    text-align: center;
+}
+.allmen{
+    display: grid;
+    gap: 10px;
+    width: 900px;
+    grid-template-columns:  auto auto;
+    grid-template-rows: auto auto ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    width: 450px;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+.bg1{
+    background: url(../../../img/Vrstva\ 7.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.bg2{
+    background: url(../../../img/Vrstva\ 8.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.bg3{
+    background: url(../../../img/Vrstva\ 12.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.bg4{
+    background: url(../../../img/Vrstva\ 11.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.bg5{
+    background: url(../../../img/Vrstva\ 10.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.bg6{
+    background: url(../../../img/Vrstva\ 9.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.price{
+    background: url(../../../img/obd3.png);
+    width: 35px;
+    height: 20px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: auto;
+    
+}
+.pricep p{
+    text-align: center;
+    margin-top: 2px;
+}
+.s{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.line{
+    display: flex;
+    margin: 3px;
+    justify-content: space-between;
+    height: 20px;
+}
+.dag{
+    width: 1400px;
+    height: 450px;
+    background: url(../../../img/OH3C7D0.png);
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+}
+.dag2{
+    width: 450px;
+}
+.dag3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 191, 0);
+    box-shadow: 0px 3px 10px 0px black;
+}
+.box{
+    background: url(../../../img/4031.png);
+    background-size: cover;
+    height: 600px;
+}
+.box_button{
+    width: 150px;
+    height: 40px;
+    margin: 0px auto;
+    margin-top: 40px;
+    text-align: center;
+    background: rgb(255, 191, 0);
+    font-size: 16px;
+    line-height: 40px;
+    box-shadow: 0px 3px 10px 0px black;
+    transition: 0.3s;
+}
+.box_button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.box_button:active{
+    transform: translateY(5px);
+}
+.left img{
+    width: 80px;
+    height: 50px;
+}
+.left p{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.footer2{
+    background: url(../../../img/866.png);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.footer2 div{
+    margin: 40px;
+}
+.footer2 .f4{
+    margin: 40px;
+    margin-left: 300px;
+}
+.footer2 p{
+    color: rgb(206, 206, 206);
+    font-style: italic;
+    margin: 5px;
+    margin-left: 0px;
+}
+.footer2 h3{
+    color: aliceblue;
+    font-style: italic;
+}
+
+
+.email{
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 10px;
+    border: 0px;
+    font-style: italic;
+}
+.email2{
+    background-color: rgb(255, 191, 0);
+    padding: 10px;
+    border: 0px;
+    font-style: italic;
+}
+.forma {
+    width: 700px;
+    margin: auto auto;
+    background: url(../../../img/bg.png);
+    height: 400px;
+    background-size: cover;
+}
+.forma h2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.content{
+    display: flex;
+    height: 50px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+.left{
+    display:flex;
+    font-size: 20px;
+    width: 55%;
+}
+.right{
+    font-size: 18px;
+    line-height: 6px;
+    width: 45%;
+    text-align: left;
+
+}
