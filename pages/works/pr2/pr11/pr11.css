@@ -1,0 +1,112 @@
+body{
+    font-style: italic;
+}
+h2{
+    font: Arial;
+    font-weight: bolder;
+    font-size: 60px;
+}
+section{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 150px;
+    padding: 5%;
+}
+section article{
+    width: 320px;
+    margin: 5px;
+}
+img{
+    width: 60%;
+    background-size: cover;
+}
+article{
+    width: 300px;
+}
+.centall{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-flow: column wrap;
+}
+p{
+    font-style: italic;
+    color: blueviolet;
+    margin-top: auto;
+}
+.one{
+    width: 400px;
+}
+.two{
+    width: 400px;
+}
+.three{
+    width: 400px;
+}
+.four{
+    width: 400px;
+}
+.five{
+    width: 400px;
+}
+.six{
+    width: 400px;
+}
+.telega1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+}
+.telega2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+}
+.telega3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+}
+.telega4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+}
+.telega5{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+}
+.telega6{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+}
+hr{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 5px dotted gray;
+    color: #fff;
+    height: 5px;
+    width: 1200px;
+}
+.price{
+    font-size: 26px;
+    font-weight: bolder;
+    font: Verdana black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 108px;
+    height: 25px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
