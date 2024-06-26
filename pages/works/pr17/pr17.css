@@ -1,0 +1,115 @@
+.all{
+  font-family: Arial
+}
+header{    
+  color: white;
+}
+.text{
+  display: flex;
+  background-color: rgb(62, 135, 230);
+  align-items: center;
+}
+header .text{ 
+  width: 470px;
+  height: 80px;
+}
+.block{
+  margin-left: 110px;
+  padding-right: 110px;
+  border-right: 1px solid white;
+}
+.block2{
+  margin-left: 30px;
+}
+nav{
+  width: 470px;
+}
+nav ul{
+  background-color: rgb(53, 50, 50);
+  margin: 0;
+  padding: 10px;
+}
+ul li a:hover{
+  background-color: rgb(71, 135, 219);
+  padding: 10px;
+}
+li{
+  display: inline-block;
+}
+ul a{
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+section{
+  width: 470px;
+}
+.art{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px;
+}
+.odin,.dva,.tri{
+  border-bottom: 1px solid rgb(184, 176, 176);
+}
+.art img{
+  height: 70px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+.art p{
+  text-align: start;
+  justify-content: end;
+  margin-bottom: 0px;
+  margin-top: 3px;
+}
+.sz{
+  flex-basis: 60%;
+}
+.name{
+  font-size: 26px;
+}
+div .amoffr{
+  text-align: end;
+  font-size: 26px;
+}
+.clrgrey{
+  color: grey;
+}
+.op{
+  filter: blur(1px);
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.settings{
+  width: 470px;
+  display: flex;
+  background-color:rgb(63, 59, 59) ;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.nastr img{
+  height: 30px;
+  text-align: center;
+}
+.clrgray.txt{
+  text-align: center;
+}
+footer{
+  width: 470px;
+}
+footer div{
+  margin-top: 30px;
+  text-align: center;
+  color: gray;
+}
+footer div img{
+  height: 25px;
+}
